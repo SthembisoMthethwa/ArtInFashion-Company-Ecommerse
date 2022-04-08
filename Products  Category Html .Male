@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Man</title>
+<link rel="stylesheet" href="Stylesheet.css">
+<!--custom for js file link-->
+<script defer src="Script.js" ></script> 
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap"
+rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="categories">
+        <div class="small-container">
+            <h2 class="title">Skrr Skrr</h2><br>
+            <h2 class="title2">Men</h2>
+            <div class="row">
+                <div class="col-4">
+                    <div class="product" data-name="p-9">
+                    <img src="images/9.jpg" alt="">
+                    <div class="ratings">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-o"></span>
+                    </div>
+                    <h4 class="Product-Title">Puma Suede Black Color</h4>
+                    <span class="price">R170.00</span>
+                    <button class="modal-open"data-modal="modal1">More Details</button>
+
+                    </div>
+                </div>
+                
+                <div class="col-4">
+                    <div class="product" data-name="p-10">
+                    <img src="images/10.jpg" alt="">
+                    <div class="ratings">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-half checked"></span>
+                        <span class="fa fa-star-o"></span>
+                    </div>
+                    <h4 class="Product-Title">Puma Suede Black Color</h4>
+                    <span class="price">R170.00</span>
+                    <button class="modal-open"data-modal="modal2">More Details</button>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="product" data-name="p-11">
+                    <img src="images/11.jpg" alt="">
+                    <div class="ratings">
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-o"></span>
+                        <span class="fa fa-star-o"></span>
+                    </div>
+                    <h4 class="Product-Title">Puma Suede Black Color</h4>
+                    <span class="price">R170.00</span>
+                    <button class="modal-open"data-modal="modal3">More Details</button>
+
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="product" data-name="p-12">
+                    <img src="images/12.jpg" alt="">
+                    <div class="ratings">
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star checked "></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star-o"></span>
+                    </div>
+                    <h4 class="Product-Title">Puma Suede Black Color</h4>
+                    <span class="price">R170.00</span>
+                    <button class="modal-open"data-modal="modal4">More Details</button>
+
+                    </div>
+                </div>
+            </div>
+            
+        </div>        
+    </div>
+
+   
+    
+<!--Modal1-->
+<div class="modal" id="modal1">
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img   src="images/12.jpg" width="100%" id="ProductImg" >
+            </div>
+            
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/11.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/14.jpg" width="100%"class="small-img" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/6.jpeg" width="100%"class="small-img" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/3.jpeg" width="100%"class="small-img" >
+                    </div>
+                </div> 
+
+            </div>
+
+                <div class="col-3">
+                    <button class="icon modal-close"><i class="material-icons">&#215;</i></button></div>
+                    <h1>Red Printed T-Shirt</h1>
+                    <h4>R250</h4>
+                    <div class="selector">
+                        <select>
+                            <option> Select size</option>
+                            <option>XXL</option>
+                            <option>XL</option>
+                            <option>L</option>
+                            <option>M</option>
+                            <option>S</option>
+                        </select>
+                    </div>
+                    <input type="number" min="1" max="100"/>
+                    <a href="" class="btn">Add to Cart</a>
+                    <h5>Product Details   &#x1F1FF;&#x1F1E6;</h5>
+                    <br>
+                    <p>The Hostage White Hoodie with black printed Brand name.<br>Gives you the best look and confidence</p>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+   
+<!--Modal2-->
+<div class="modal" id="modal2">
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img   src="images/12.jpg" width="100%" id="ProductImg" >
+            </div>
+            
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/11.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/14.jpg" width="100%"class="small-img" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/6.jpeg" width="100%"class="small-img" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/3.jpeg" width="100%"class="small-img" >
+                    </div>
+                </div> 
+
+            </div>
+
+                <div class="col-3">
+                    <button class="icon modal-close"><i class="material-icons">&#215;</i></button></div>
+                    <h1>Red Printed T-Shirt</h1>
+                    <h4>R250</h4>
+                    <div class="selector">
+                        <select>
+                            <option> Select size</option>
+                            <option>XXL</option>
+                            <option>XL</option>
+                            <option>L</option>
+                            <option>M</option>
+                            <option>S</option>
+                        </select>
+                    </div>
+                    <input type="number" min="1" max="100"/>
+                    <a href="" class="btn">Add to Cart</a>
+                    <h5>Product Details   &#x1F1FF;&#x1F1E6;</h5>
+                    <br>
+                    <p>The Hostage White Hoodie with black printed Brand name.<br>Gives you the best look and confidence</p>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+
+
+   
+<!--Modal3-->
+<div class="modal" id="modal3">
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img   src="images/12.jpg" width="100%" id="ProductImg" >
+            </div>
+            
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/11.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/14.jpg" width="100%"class="small-img" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/6.jpeg" width="100%"class="small-img" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/3.jpeg" width="100%"class="small-img" >
+                    </div>
+                </div> 
+
+            </div>
+
+                <div class="col-3">
+                    <button class="icon modal-close"><i class="material-icons">&#215;</i></button></div>
+                    <h1>Red Printed T-Shirt</h1>
+                    <h4>R250</h4>
+                    <div class="selector">
+                        <select>
+                            <option> Select size</option>
+                            <option>XXL</option>
+                            <option>XL</option>
+                            <option>L</option>
+                            <option>M</option>
+                            <option>S</option>
+                        </select>
+                    </div>
+                    <input type="number" min="1" max="100"/>
+                    <a href="" class="btn">Add to Cart</a>
+                    <h5>Product Details   &#x1F1FF;&#x1F1E6;</h5>
+                    <br>
+                    <p>The Hostage White Hoodie with black printed Brand name.<br>Gives you the best look and confidence</p>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+   
+<!--Modal4-->
+<div class="modal" id="modal4">
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img   src="images/12.jpg" width="100%" id="ProductImg" >
+            </div>
+            
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images/11.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/14.jpg" width="100%"class="small-img" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/6.jpeg" width="100%"class="small-img" >
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images/3.jpeg" width="100%"class="small-img" >
+                    </div>
+                </div> 
+
+            </div>
+
+                <div class="col-3">
+                    <button class="icon modal-close"><i class="material-icons">&#215;</i></button></div>
+                    <h1>Red Printed T-Shirt</h1>
+                    <h4>R250</h4>
+                    <div class="selector">
+                        <select>
+                            <option> Select size</option>
+                            <option>XXL</option>
+                            <option>XL</option>
+                            <option>L</option>
+                            <option>M</option>
+                            <option>S</option>
+                        </select>
+                    </div>
+                    <input type="number" min="1" max="100"/>
+                    <a href="" class="btn">Add to Cart</a>
+                    <h5>Product Details   &#x1F1FF;&#x1F1E6;</h5>
+                    <br>
+                    <p>The Hostage White Hoodie with black printed Brand name.<br>Gives you the best look and confidence</p>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
